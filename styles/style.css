@@ -111,6 +111,7 @@
     display: flex;
     padding: 30px;
     border-radius: 16px;
+    margin-bottom: 120px;
 }
 
 .leftside-content {
@@ -135,7 +136,7 @@
     font-family: "Inter", sans-serif;
     font-size: 18px;
     font-weight: 400;
-    margin-left: 20px;
+    margin-left: 10px;
     margin-top: 24px;
 }
 
@@ -161,4 +162,68 @@
     width: 349.16px;
     height: 464.65px;
 
+}
+
+/* holyday */
+
+.holyday-section-container{
+    width: 1320px;
+height: 986.07px;
+margin: 0 auto;
+border: 2px solid red;
+position: relative;
+}
+
+.holyday-text-container{
+    width: 1068px;
+height: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.holyday-text-container h5{
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.holyday-text-container h1{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.holyday-text-container p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.solid-color{
+    width: 1320px;
+height: 229px;
+border-radius: 16px 0px 16px 16px;
+background: rgb(255, 0, 0);
+position: absolute;
+top: 77%;
+}
+
+.gift-box{
+    width: 674.82px;
+    height: 577.96px;
+    position: relative;
+    z-index: 1;
+}
+
+.discount{
+    position: absolute;
+    bottom: 30%;
+    left: 55%;
+    z-index: 1;
 }
