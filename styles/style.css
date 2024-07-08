@@ -7,10 +7,6 @@
     padding: 0;
 }
 
-/* body {
-    font-family: "Merriweather", serif;
-} */
-
 /* banner section */
 
 .banner-container {
@@ -274,4 +270,45 @@
 .item img {
     width: 100%;
     height: 100%;
+}
+
+/* footer styles */
+
+.footer-container {
+    width: 1600px;
+    height: 609px;
+    background: rgb(7, 2, 17);
+    padding: 70px 140px;
+}
+
+.first-section {
+    color: rgb(255, 255, 255);
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.first-section div p {
+    width: 251px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+hr {
+    width: 1320px;
+    margin: 30px auto;
+}
+
+.second-section {
+    width: 300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
