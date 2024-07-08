@@ -155,10 +155,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 
-.rightside-content img{
+.rightside-content img {
     width: 349.16px;
     height: 464.65px;
 
@@ -166,17 +166,17 @@
 
 /* holyday */
 
-.holyday-section-container{
+.holyday-section-container {
     width: 1320px;
-height: 986.07px;
-margin: 0 auto;
-border: 2px solid red;
-position: relative;
+    height: 986.07px;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 120px;
 }
 
-.holyday-text-container{
+.holyday-text-container {
     width: 1068px;
-height: 260px;
+    height: 260px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -184,46 +184,94 @@ height: 260px;
     margin: 0 auto;
 }
 
-.holyday-text-container h5{
+.holyday-text-container h5 {
     color: rgb(7, 2, 17);
-    font-family: Inter;
+    font-family: "Inter", sans-serif;
     font-size: 24px;
     font-weight: 500;
 }
 
-.holyday-text-container h1{
+.holyday-text-container h1 {
     color: rgb(7, 2, 17);
-    font-family: Merriweather;
+    font-family: "Merriweather", serif;
     font-size: 72px;
     font-weight: 900;
 }
 
-.holyday-text-container p{
+.holyday-text-container p {
     color: rgba(7, 2, 17, 0.6);
-    font-family: Inter;
+    font-family: "Inter", sans-serif;
     font-size: 20px;
     font-weight: 500;
 }
 
-.solid-color{
+.solid-color {
     width: 1320px;
-height: 229px;
-border-radius: 16px 0px 16px 16px;
-background: rgb(255, 0, 0);
-position: absolute;
-top: 77%;
+    height: 229px;
+    border-radius: 16px 0px 16px 16px;
+    background: rgb(255, 0, 0);
+    position: absolute;
+    top: 77%;
 }
 
-.gift-box{
+.gift-box {
     width: 674.82px;
     height: 577.96px;
     position: relative;
     z-index: 1;
 }
 
-.discount{
+.discount {
     position: absolute;
     bottom: 30%;
     left: 55%;
     z-index: 1;
+}
+
+/* portfolio */
+
+.portfolio-container {
+    width: 1320px;
+    height: 1163px;
+    margin: 0 auto;
+}
+
+.portfolio-text-content h5 {
+    color: rgb(255, 0, 0);
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.portfolio-text-content h1 {
+    color: rgb(7, 2, 17);
+    font-family: "Merriweather", serif;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 22px;
+}
+
+.portfolio-text-content p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 48px;
+}
+
+.portfolio-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.item {
+    width: 424px;
+    height: 450px;
+}
+
+.item img {
+    width: 100%;
+    height: 100%;
 }
